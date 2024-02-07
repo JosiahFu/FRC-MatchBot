@@ -7,6 +7,9 @@ from random import shuffle
 from os import environ
 from utils import *
 from tba import *
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Setting channel ids
 BOT_TESTING_CHANNEL_ID = 1031012980692889615
